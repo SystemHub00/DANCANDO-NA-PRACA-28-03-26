@@ -36,7 +36,7 @@ COURSE_OPTIONS = [
         "horario": "09h30",
         "data_inicio": "28/03/2026",
         "encerramento": "⚠️Em caso de chuva pode ser cancelado",
-        "endereco_curso": "📍Rua Pedro Gomes - Realengo, Rio de Janeiro",
+        "endereco_curso": "📍R. Prof. Carlos Wenceslau, 290 - Realengo, Rio de Janeiro - RJ, 21715-000",
     },
 ]
 COURSE_OPTIONS_BY_ID = {option["id"]: option for option in COURSE_OPTIONS}
@@ -929,7 +929,7 @@ TEMPLATE_WIZARD = r'''
                             <p class="hero-subtitle">
                                     Evento Gratuito:<br>
                                     Aulão de Samba no Pé com - Horfeuvaleiro<br>
-                                    📍Rua Pedro Gomes - Realengo, Rio de Janeiro
+                                    📍R. Prof. Carlos Wenceslau, 290 - Realengo, Rio de Janeiro - RJ, 21715-000
                             </p>
                             <div class="hero-highlights">
                                 <div class="hero-highlight">
