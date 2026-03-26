@@ -1049,7 +1049,7 @@ TEMPLATE_WIZARD = r'''
                             </div>
 
                             <div class="form-group">
-                                <label for="dias_aula">DIA DE AULA / HORÁRIOS</label>
+                                <label for="dias_aula">DIA DE AULA</label>
                                 <input type="text" id="dias_aula" name="dias_aula" class="readonly-field" readonly value="{{ form_data.get('dias_aula', '') }}">
                             </div>
 
