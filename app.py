@@ -29,9 +29,9 @@ VALID_DDDS = {
 COURSE_OPTIONS = [
     {
         "id": "1",
-        "local": "ILHA DO GOVERNADOR",
+        "local": "REALENGO",
         "curso": "SAMBA NO PÉ",
-        "turma": "RUA PEDRO GOMES - REALENGO",
+        "turma": "HORFEUVALEIRO (REALENGO)",
         "dias_aula": "Sábado",
         "horario": "09h30",
         "data_inicio": "28/03/2026",
@@ -928,7 +928,7 @@ TEMPLATE_WIZARD = r'''
                                 <h1 class="hero-title">AULÃO DE DANÇA!</h1>
                             <p class="hero-subtitle">
                                     Evento Gratuito:<br>
-                                    Aulão de Samba no Pé com - Horfeuvaleiro<br>
+                                    Aulão de Samba no Pé com - HORFEUVALEIRO (REALENGO)<br>
                                     📍R. Prof. Carlos Wenceslau, 290 - Realengo, Rio de Janeiro - RJ, 21715-000
                             </p>
                             <div class="hero-highlights">
@@ -1128,12 +1128,12 @@ TEMPLATE_WIZARD = r'''
 
                             <div class="review-box full">
                                 <div class="review-info-text" style="margin-bottom:10px; color:#a14f45; font-size:0.98rem; text-align:left;">
-                                    <strong>Elegibilidade:</strong> Este evento é destinado a pessoas interessadas em dança que residem na Ilha do Governador ou região.
+                                    <strong>Elegibilidade:</strong> Este evento é destinado a pessoas interessadas em dança que residem em Realengo ou região.
                                 </div>
                                 <label class="review-check" for="confirma_dados">
                                     <input type="checkbox" id="confirma_dados" name="confirma_dados" value="sim" {% if form_data.get('confirma_dados') %}checked{% endif %}>
                                     <span>
-                                        Confirmo que resido na Ilha do Governador ou região e tenho interesse em participar do evento.<br>
+                                        Confirmo que resido em Realengo ou região e tenho interesse em participar do evento.<br>
                                         Todas as informações fornecidas são verdadeiras e estou de acordo com os termos de participação.<br>
                                         Autorizo o uso dos meus dados para fins de inscrição e contato relacionado ao curso.<br>
                                         Também autorizo o uso da minha imagem para divulgação nos canais de comunicação e redes sociais do projeto e da Prefeitura do Rio de Janeiro.
